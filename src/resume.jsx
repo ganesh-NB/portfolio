@@ -26,7 +26,7 @@ function Resume() {
         {/* Buttons */}
         <div className="flex justify-center gap-6">
           <a
-            href="/your-resume.pdf"
+            href="/GaneshNB_Resume.pdf"
             target="_blank"
             className="px-6 py-3 bg-blue-600 text-white rounded-xl text-lg hover:bg-blue-700 transition"
           >
