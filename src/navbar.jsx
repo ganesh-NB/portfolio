@@ -9,19 +9,19 @@
 
       {/* Middle - Navigation Buttons */}
       <div className="hidden md:flex gap-6">
-        <button className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold ">
+        <button  onclick="window.location.href='#home'" className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold ">
           Home
         </button>
-        <button className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
+        <button onclick="window.location.href='#skills'" className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
           Skills
         </button>
-        <button className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
+        <button onclick="window.location.href='#projects'" className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
           Projects
         </button>
-        <button className="text-xl px-6 py-3  text-gray-700 hover:text-blue-600 transition font-bold">
+        <button onclick="window.location.href='#resume'" className="text-xl px-6 py-3  text-gray-700 hover:text-blue-600 transition font-bold">
           Resume
         </button>
-        <button className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
+        <button onclick="window.location.href='#blog'" className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
           Blog
         </button>
         <button className="text-xl px-6 py-3 text-gray-700 hover:text-blue-600 transition font-bold">
@@ -31,9 +31,7 @@
 
       {/* Right - CTA button */}
       <div>
-        <button className="text-xl px-6 py-3 bg-blue-600 hover:bg-blue-700 transition text-white font-medium rounded-lg">
-          Hire Me
-        </button>
+        
       </div>
 
     </nav>

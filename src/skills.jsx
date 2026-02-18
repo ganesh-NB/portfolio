@@ -1,7 +1,7 @@
 function Skills() {
   const skillList = [
     "HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS",
-    , "Express JS", "MongoDB", "Git & GitHub", "Java"
+    , "Express JS", "Git & GitHub", "Java"
   ];
 
   return (
@@ -21,7 +21,7 @@ function Skills() {
         {skillList.map((skill, index) => (
           <div
             key={index}
-            className="px-6 py-4 bg-white shadow-md rounded-xl text-center 
+            className="px-6 py-4 bg-blue-100 shadow-md rounded-xl text-center 
                        text-xl font-medium text-gray-700 hover:scale-105 
                        hover:shadow-lg transition-transform cursor-pointer"
           >
